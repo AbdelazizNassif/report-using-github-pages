@@ -22,7 +22,7 @@
 ```bash
 - Run mvn clean test -Dtest="com.petfinder.tests.regressionE2eTests.*.**"
 ```
-### Open allure report locally from cmd
+### Open allure report locally or from github page
 ```bash
 Allure serve
 Find the report here: https://abdelaziznassif.github.io/petfinder-app/
