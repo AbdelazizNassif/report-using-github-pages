@@ -1,0 +1,8 @@
+screenshots/
+target/
+allure-results/
+env-files/
+.idea/
+.env
+.gitignore.bak
+README.md.bak
