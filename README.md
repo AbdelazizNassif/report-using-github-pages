@@ -25,6 +25,7 @@
 ### Open allure report locally from cmd
 ```bash
 Allure serve
+Find the report here: https://abdelaziznassif.github.io/petfinder-app/
 ```
 
 ## How to contribute:
