@@ -1,10 +1,11 @@
-# Velents BE & E2E tests..
+# Petfinder login & registration automated E2E tests..
 
 ## Used tools and libraries:
 ```bash
 - Java-17, maven, Junit5.
-- major used libs > Selenium, Rest assured, allure reporting.
+- major used libs > Selenium allure report.
 - Json reader, Property file reader.
+- using .env file for credentials information
 - Running tests in docker containers
 ```
 
@@ -19,17 +20,12 @@
 ## How to run the project:
 ### to run all tests: 
 ```bash
-- Run BE tests > mvn clean -DargLine="-Xmx6g" -D"junit.jupiter.execution.parallel.enabled=true" -D"junit.jupiter.execution.parallel.config.strategy=dynamic" -Dtest="com/velents/tests/apiE2eTests/*/**" test -Dgroups="${RUN_ENV} & ${RUN_TYPE}"
-- Run E2E tests > mvn clean -DargLine="-Xmx6g" -D"junit.jupiter.execution.parallel.enabled=false" -Dtest="com/velents/tests/regressionE2eTests/*/**" test -Dgroups="${{ parameters.runEnv }}"
+- Run mvn clean test -Dtest="com.petfinder.tests.regressionE2eTests.*.**"
 ```
-### Open allure report locally from cmd
+### Open allure report locally or from github page
 ```bash
 Allure serve
-```
-### To open report after the pipeline: 
-```bash
-- BE test results  > todo
-- E2E test results > todo
+Find the report here: https://abdelaziznassif.github.io/petfinder-app/
 ```
 
 ## How to contribute:
