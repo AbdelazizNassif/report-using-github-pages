@@ -9,11 +9,15 @@
 - Running tests in docker containers
 ```
 
-## Design patterns used:
+## A short explanation of the provided solution:
 ```bash
-- Page object model design pattern
+- Page object model design pattern is used
+- automated tests are done on registration and login test cases
+- Github actions is used to run the pipeline 
+- Allure reporting is used to keep logs and test results and the report is automatically deployed on github pages after the pipeline https://abdelaziznassif.github.io/petfinder-app/
 - Data-driven design pattern
   - Getting environment variables .env file locally and from pipelines/.env.prod file remotely
+  - data provider is used to validate invaid login cases
   - Getting test data from Json file
 ```
 
