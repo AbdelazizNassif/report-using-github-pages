@@ -19,7 +19,7 @@
 - automated tests are done on registration and login test cases
 - for registration > Create utiliy class to create unique email each new run
 - Github actions is used to run the pipeline 
-- Allure reporting is used to keep logs and test results and the report is automatically deployed on github pages after the pipeline https://abdelaziznassif.github.io/petfinder-app/
+- Allure reporting is used to keep logs and test results and the report is automatically deployed on github pages after the pipeline https://abdelaziznassif.github.io/abdelaziz-samir-ca-challenge/
 ```
 
 ## How to run the project:
@@ -30,7 +30,7 @@
 ### Open allure report locally or from github page
 ```bash
 Allure serve
-Find the report here: https://abdelaziznassif.github.io/petfinder-app/
+Find the report here: https://abdelaziznassif.github.io/abdelaziz-samir-ca-challenge/
 ```
 
 ## How to contribute:
