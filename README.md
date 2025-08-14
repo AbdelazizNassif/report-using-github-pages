@@ -1,4 +1,4 @@
-# Petfinder login & registration automated E2E tests..
+# login & registration automated E2E tests..
 
 ## Used tools and libraries:
 ```bash
